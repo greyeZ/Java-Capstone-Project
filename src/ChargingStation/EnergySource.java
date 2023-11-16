@@ -1,5 +1,5 @@
 package ChargingStation;
 
-public class EnergySource {
-
+public enum EnergySource {
+	SOLAR, WIND, GAS, ELECTRICITY
 }

@@ -1,5 +1,5 @@
 package Weather;
 
-public class WeatherCondition {
-
+public enum WeatherCondition {
+	SUNNY, WINDY, RAINING, CLOUDY, SNOWING
 }
