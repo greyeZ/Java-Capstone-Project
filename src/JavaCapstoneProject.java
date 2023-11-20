@@ -33,19 +33,27 @@ public class JavaCapstoneProject {
 
         // Generate a random number between 1 and 5 (inclusive)
         int randomNumber = random.nextInt(5) + 1; 
-        switch(randomNumber) {
-        case 1: 
-        	return WeatherCondition.CLOUDY;
-        case 2: 
-        	return WeatherCondition.RAINING;
-        case 3: 
-        	return WeatherCondition.SNOWING;
-        case 4: 
-        	return WeatherCondition.SUNNY;
-        case 5: 
-        	return WeatherCondition.WINDY;
-        default: return WeatherCondition.SUNNY;
+        try {
+        	 switch(randomNumber) {
+             case 1: 
+             	return WeatherCondition.CLOUDY;
+             case 2: 
+             	return WeatherCondition.RAINING;
+             case 3: 
+             	return WeatherCondition.SNOWING;
+             case 4: 
+             	return WeatherCondition.SUNNY;
+             case 5: 
+             	return WeatherCondition.WINDY;
+             default: throw new Exception("Something went wrong");
+             }
+        } catch (NumberFormatException e) {
+            System.out.println("NumberFormatException: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Exception: " + e.getMessage());
         }
+		return WeatherCondition.SUNNY;
+       
 	}
 
 }

@@ -17,7 +17,12 @@ public class ChargingStation {
 		this._locations = new Location[amountOfLocations];
 		fillLocationArray(amountOfLocations);
 		this._id = id;
+		try 
+		{
 		createLogFile();
+		}catch (IOException e) {
+			throw new Error("Error" + e);
+		}
 	}
 
 	private void fillLocationArray(int amountOfLocations) {
@@ -96,8 +101,8 @@ public class ChargingStation {
 	private void logChanges(String text) {
 		System.out.println("Writing to file...");
 		//TODO Logic for writing to existing file, currently overwritng the old one
-		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter("../../ChargingStation" + get_id() + "log.txt"));
+		
+		try(BufferedWriter writer = new BufferedWriter(new FileWriter("../../ChargingStation" + get_id() + "log.txt"));) {
 			writer.newLine();
 			writer.write(text);
 			writer.close();
@@ -107,12 +112,14 @@ public class ChargingStation {
 		}
 	}
 	
-    private void createLogFile() {
+    private void createLogFile() throws IOException {
         try {
         	BufferedWriter writer = new BufferedWriter(new FileWriter("ChargingStation" + get_id() + "log.txt"));
             
         } catch (IOException e) {
             e.printStackTrace();
+            
+            throw e;
         }
     }
 	
