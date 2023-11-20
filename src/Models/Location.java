@@ -1,13 +1,20 @@
-package ChargingStation;
-
-import Car.Car;
+package Models;
 
 public class Location {
 	private EnergySource _energySource;
 	private boolean _inUse;
 	private Car _carInLocation;
 	private double _startChargingTime; 
+	private User _User;
 	
+	public User get_User() {
+		return _User;
+	}
+
+	public void set_User(User _User) {
+		this._User = _User;
+	}
+
 	Location() {
 		this._inUse = false;
 		this._carInLocation = null;

@@ -1,8 +1,8 @@
 import java.util.Random;
 
-import Car.Car;
-import ChargingStation.ChargingStation;
-import Weather.WeatherCondition;
+import Models.Car;
+import Models.ChargingStation;
+import Models.WeatherCondition;
 
 public class JavaCapstoneProject {
 

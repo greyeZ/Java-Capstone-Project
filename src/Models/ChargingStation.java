@@ -1,11 +1,6 @@
-package ChargingStation;
+package Models;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-
-import Car.Car;
-import Weather.WeatherCondition;
+import Helpers.Logger;
 
 public class ChargingStation {
 	private Location[] _locations;
@@ -17,7 +12,6 @@ public class ChargingStation {
 		this._locations = new Location[amountOfLocations];
 		fillLocationArray(amountOfLocations);
 		this._id = id;
-		createLogFile();
 	}
 
 	private void fillLocationArray(int amountOfLocations) {
@@ -45,7 +39,7 @@ public class ChargingStation {
 	public void set_currentWeather(WeatherCondition _currentWeather) {
 		this._currentWeather = _currentWeather;
 		changeEnergySource();
-		logChanges("Weather changed to: " + _currentWeather);
+		Logger.log("Weather changed to: " + _currentWeather);
 	}
 	
 	public void useChargingLocation(Car car) {
@@ -90,30 +84,8 @@ public class ChargingStation {
 		for(Location location: get_locations()) {
 			location.set_energySource(newSource);
 		}
-		logChanges("EnergySource changed to: " + newSource);
+		Logger.log("EnergySource changed to: " + newSource);
 	}
-	
-	private void logChanges(String text) {
-		System.out.println("Writing to file...");
-		//TODO Logic for writing to existing file, currently overwritng the old one
-		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter("../../ChargingStation" + get_id() + "log.txt"));
-			writer.newLine();
-			writer.write(text);
-			writer.close();
-		} catch(IOException e) {
-			 e.printStackTrace();
-			 System.out.println("Error writing to file");
-		}
-	}
-	
-    private void createLogFile() {
-        try {
-        	BufferedWriter writer = new BufferedWriter(new FileWriter("ChargingStation" + get_id() + "log.txt"));
-            
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+
 	
 }
