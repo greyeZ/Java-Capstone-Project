@@ -1,0 +1,3 @@
+
+EnergySource changed to: GAS
+Weather changed to: SNOWING

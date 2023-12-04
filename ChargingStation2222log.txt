@@ -1,0 +1,3 @@
+
+EnergySource changed to: SOLAR
+Weather changed to: SUNNY
