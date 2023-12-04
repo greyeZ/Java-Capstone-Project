@@ -1,81 +1,63 @@
 import java.util.Random;
 
 import Car.Car;
-import ChargingStation.ChargingStation;
-import ChargingStation.Location;
-import Weather.WeatherCondition;
+import Services.ChargingQueue;
 
 public class JavaCapstoneProject {
 
-    public static void main(String[] args) {
-        ChargingStation[] chargingStations = {
-            new ChargingStation(5, 1111),
-        };
+	public static void main(String[] args) {
 
-        for (ChargingStation chargingStation : chargingStations) {
-            chargingStation.set_currentWeather(changeWeather());
-        }
+		Car[] cars = {
+				new Car(11, 10, 12000),
+				new Car(12, 10, 600000),
+				new Car(13, 10, 1500000), // exceeds 15 mins
+				new Car(14, 10, 1200000), // exceeds 15 mins
+				new Car(15, 10, 300000)
+		};
 
-        Car[] cars = {
-            new Car(11, 3, 2),
-            new Car(12, 1, 1),
-            new Car(13, 4, 3),
-            new Car(14, 2, 3),
-            new Car(15, 5, 5),
-            new Car(16, 4, 3),
-            new Car(17, 2, 3),
-            new Car(18, 5, 5),
-            new Car(19, 3, 2),
-            new Car(20, 1, 1),
-            new Car(21, 4, 3),
-            new Car(22, 2, 3),
-            new Car(23, 5, 5),
-            new Car(24, 4, 3),
-            new Car(25, 2, 3),
-        };
+		final int chargingQueueSize = 3;
+		ChargingQueue chargingQueue = new ChargingQueue(chargingQueueSize);
+		Random random = new Random();
 
-        // Simulate cars using the charging stations
-        for (Car car : cars) {
-            ChargingStation selectedStation = findAvailableChargingStation(chargingStations);
-            if (selectedStation != null) {
-                selectedStation.useChargingLocation(car);
-                System.out.println("Car " + car.get_id() + " is charging at ChargingStation " + selectedStation.get_id());
-            } else {
-                System.out.println("No available charging station for Car " + car.get_id());
-            }
-        }
-    }
+		Thread carEnteringThread = new Thread(() -> {
+			for (int i = 0; i < 5; i++) {
 
-    static WeatherCondition changeWeather() {
-        // Create a Random object
-        Random random = new Random();
+				chargingQueue.charge(cars[i]);
 
-        // Generate a random number between 1 and 5 (inclusive)
-        int randomNumber = random.nextInt(5) + 1;
-        switch (randomNumber) {
-            case 1:
-                return WeatherCondition.CLOUDY;
-            case 2:
-                return WeatherCondition.RAINING;
-            case 3:
-                return WeatherCondition.SNOWING;
-            case 4:
-                return WeatherCondition.SUNNY;
-            case 5:
-                return WeatherCondition.WINDY;
-            default:
-                return WeatherCondition.SUNNY;
-        }
-    }
+				try {
+					// random interval to wait for the next coming car
+					long randomInterval = random.nextInt(7000) + 1000;
+					Thread.sleep(randomInterval);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		});
 
-    static ChargingStation findAvailableChargingStation(ChargingStation[] chargingStations) {
-        for (ChargingStation chargingStation : chargingStations) {
-            for (Location location : chargingStation.get_locations()) {
-                if (!location.is_inUse()) {
-                    return chargingStation;
-                }
-            }
-        }
-        return null;
-    }
+		Thread carsLeavingThread = new Thread(() -> {
+			try {
+				Thread.sleep(10000); // 10 seconds wait
+				while (!chargingQueue.isEmpty()) {
+					var outCar = chargingQueue.leave();
+					if (outCar != null) {
+						System.out.println("Car ID#" + outCar.get_id() + " is leaving now...");
+					}
+				}
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		});
+
+		carEnteringThread.start();
+		carsLeavingThread.start();
+
+		// Wait for the threads to finish
+		try {
+			carEnteringThread.join();
+			carsLeavingThread.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
 }

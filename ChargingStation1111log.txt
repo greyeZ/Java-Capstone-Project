@@ -1,3 +1,0 @@
-
-EnergySource changed to: ELECTRICITY
-Weather changed to: RAINING
