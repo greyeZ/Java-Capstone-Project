@@ -7,6 +7,10 @@ Every Hometask has its own branch
 # Team
 We are Team 11 
 
+# Important files
+Main File: src->JavaCapstoneProject.java  
+also please check, src->Services->ChargingQueue.java
+
 # Members
 1. Daniel Janzen (7218230, MDT)
 2. Abdizhalel Aibat (7218652, MDT)
