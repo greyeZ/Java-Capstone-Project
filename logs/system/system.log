@@ -1,0 +1,46 @@
+20:30:28.658 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+20:30:28.659 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: CLOUDY
+20:30:28.659 [main] INFO  SystemLogger - Weather changed to: WINDY
+20:30:28.660 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: WINDY
+20:30:28.660 [main] INFO  SystemLogger - Weather changed to: SNOWING
+20:30:28.660 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: SNOWING
+20:31:47.279 [main] INFO  SystemLogger - Weather changed to: RAINING
+20:31:47.281 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: RAINING
+20:31:47.281 [main] INFO  SystemLogger - Weather changed to: RAINING
+20:31:47.281 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: RAINING
+20:31:47.281 [main] INFO  SystemLogger - Weather changed to: RAINING
+20:31:47.281 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: RAINING
+20:34:03.098 [main] INFO  SystemLogger - Weather changed to: SUNNY
+20:34:03.099 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: SUNNY
+20:34:03.099 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+20:34:03.100 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: CLOUDY
+20:34:03.100 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+20:34:03.100 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: CLOUDY
+20:37:32.321 [main] INFO  SystemLogger - JavaCapstoneProject started
+20:37:32.330 [main] INFO  SystemLogger - Weather changed to: WINDY
+20:37:32.332 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: WINDY
+20:37:32.332 [main] INFO  SystemLogger - Weather changed to: WINDY
+20:37:32.332 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: WINDY
+20:37:32.332 [main] INFO  SystemLogger - Weather changed to: SUNNY
+20:37:32.332 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: SUNNY
+20:40:33.850 [main] INFO  SystemLogger - JavaCapstoneProject started
+20:40:33.859 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+20:40:33.860 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: CLOUDY
+20:40:33.860 [main] INFO  SystemLogger - Weather changed to: SNOWING
+20:40:33.860 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: SNOWING
+20:40:33.860 [main] INFO  SystemLogger - Weather changed to: SUNNY
+20:40:33.860 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: SUNNY
+20:41:03.253 [main] INFO  SystemLogger - JavaCapstoneProject started
+20:41:03.261 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+20:41:03.262 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: CLOUDY
+20:41:03.263 [main] INFO  SystemLogger - Weather changed to: SNOWING
+20:41:03.263 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: SNOWING
+20:41:03.263 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+20:41:03.263 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: CLOUDY
+20:41:55.596 [main] INFO  SystemLogger - JavaCapstoneProject started
+20:41:55.605 [main] INFO  SystemLogger - Weather changed to: SNOWING
+20:41:55.606 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: SNOWING
+20:41:55.606 [main] INFO  SystemLogger - Weather changed to: SNOWING
+20:41:55.607 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: SNOWING
+20:41:55.607 [main] INFO  SystemLogger - Weather changed to: RAINING
+20:41:55.607 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: RAINING
