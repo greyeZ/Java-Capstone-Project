@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="MyApp" packages="">
+    <Appenders>
+        <!-- Charging Station Log -->
+        <RollingFile name="ChargingStationFile" fileName="logs/charging_stations/charging_station.log"
+                     filePattern="logs/charging_stations/%d{yyyy-MM-dd}/charging_station-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+        <!-- Energy Source Log -->
+        <RollingFile name="EnergySourceFile" fileName="logs/energy_sources/energy_source.log"
+                     filePattern="logs/energy_sources/%d{yyyy-MM-dd}/energy_source-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+        <!-- System Log -->
+        <RollingFile name="SystemLogFile" fileName="logs/system/system.log"
+                     filePattern="logs/system/%d{yyyy-MM-dd}/system-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <!-- Charging Station Logger -->
+        <Logger name="ChargingStationLogger" level="info" additivity="false">
+            <AppenderRef ref="ChargingStationFile"/>
+        </Logger>
+
+        <!-- Energy Source Logger -->
+        <Logger name="EnergySourceLogger" level="info" additivity="false">
+            <AppenderRef ref="EnergySourceFile"/>
+        </Logger>
+
+        <!-- System Logger -->
+        <Logger name="SystemLogger" level="info" additivity="false">
+            <AppenderRef ref="SystemLogFile"/>
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="ChargingStationFile"/>
+            <AppenderRef ref="EnergySourceFile"/>
+            <AppenderRef ref="SystemLogFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
