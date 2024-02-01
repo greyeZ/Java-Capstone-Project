@@ -1,6 +1,8 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import Services.ChargingQueue;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -22,19 +24,105 @@ public class JavaCapstoneProject {
         // Log system start
         logger.info("JavaCapstoneProject started");
 
+        // A Place with 3 ChargingStations
         ChargingStation[] chargingStations = {
-                new ChargingStation(5, 1111),
-                new ChargingStation(7, 2222),
-                new ChargingStation(4, 3333)
+                new ChargingStation(01),
+                new ChargingStation(02),
+                new ChargingStation(03)
         };
 
-        Car[] cars = {
-                new Car(11, 3, 2),
-                new Car(12, 1, 1),
-                new Car(13, 4, 3),
-                new Car(14, 2, 3),
-                new Car(15, 5, 5)
+        // Different sets of cars for each charging station
+        Car[][] carsForStations = {
+                // Cars for ChargingStation 01
+                {
+                        new Car(11, 12000),
+                        new Car(12, 600000),
+                        new Car(13, 1500000), // exceeds 15 mins
+                        new Car(14, 1200000), // exceeds 15 mins
+                        new Car(15, 300000)
+                },
+                // Cars for ChargingStation 02
+                {
+                        new Car(21, 50000),
+                        new Car(22, 800000),
+                        new Car(23, 1200000),
+                        new Car(24, 200000),
+                        new Car(25, 600000)
+                },
+                // Cars for ChargingStation 03
+                {
+                        new Car(31, 200000),
+                        new Car(32, 300000),
+                        new Car(33, 400000),
+                        new Car(34, 1000000),
+                        new Car(35, 150000)
+                }
         };
+
+        // Create an array to store threads for each charging station
+        Thread[] carEnteringThreads = new Thread[chargingStations.length];
+        Thread[] carsLeavingThreads = new Thread[chargingStations.length];
+
+        // Create and start threads for every Charging Station
+        for (int i = 0; i < chargingStations.length; i++) {
+            System.out.println("Starting Threads for Charging Station " + chargingStations[i].get_id());
+            final int chargingQueueSize = 3;
+            ChargingQueue chargingQueue = new ChargingQueue(chargingQueueSize);
+            Random random = new Random();
+
+            final int stationIndex = i;  // Create a separate variable for each thread
+
+            carEnteringThreads[i] = new Thread(() -> {
+                // Iterate over the cars for every car to charge
+                for (int j = 0; j < carsForStations[stationIndex].length; j++) {
+                    chargingQueue.charge(carsForStations[stationIndex][j]);
+
+                    try {
+                        // random interval to wait for the next coming car
+                        long randomInterval = random.nextInt(7000) + 1000;
+                        Thread.sleep(randomInterval);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+
+            carsLeavingThreads[i] = new Thread(() -> {
+                try {
+                    Thread.sleep(10000); // 10 seconds wait
+                    while (!chargingQueue.isEmpty()) {
+                        var outCar = chargingQueue.leave();
+                        if (outCar != null) {
+                            System.out.println("Car ID#" + outCar.get_id() + " is leaving now...");
+                        }
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            });
+        }
+
+        // Start all car entering threads
+        for (Thread carEnteringThread : carEnteringThreads) {
+            carEnteringThread.start();
+        }
+
+        // Start all cars leaving threads
+        for (Thread carsLeavingThread : carsLeavingThreads) {
+            carsLeavingThread.start();
+        }
+
+        // Wait for all the threads to finish
+        try {
+            for (Thread carEnteringThread : carEnteringThreads) {
+                carEnteringThread.join();
+            }
+            for (Thread carsLeavingThread : carsLeavingThreads) {
+                carsLeavingThread.join();
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         for (ChargingStation chargingStation : chargingStations) {
             WeatherCondition newWeather = changeWeather();

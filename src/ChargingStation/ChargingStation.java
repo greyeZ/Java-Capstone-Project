@@ -1,34 +1,38 @@
 package ChargingStation;
 
+import java.util.Random;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import Car.Car;
+import Services.ChargingQueue;
 import Weather.WeatherCondition;
 
-public class ChargingStation {
+public class ChargingStation extends Thread {
 	private static final Logger logger = LogManager.getLogger("ChargingStationLogger");
 
-
-    private Location[] _locations;
     private int _id;
     private WeatherCondition _currentWeather;
+    private EnergySource _energySource;
+    
+    final int chargingQueueSize = 3;
+	ChargingQueue chargingQueue = new ChargingQueue(chargingQueueSize);
+	Random random = new Random();
 
-    public ChargingStation(int amountOfLocations, int id) {
-        this._locations = new Location[amountOfLocations];
-        fillLocationArray(amountOfLocations);
+    public ChargingStation(int id) {
+
         this._id = id;
     }
-
-    private void fillLocationArray(int amountOfLocations) {
-        for (int i = 0; i < amountOfLocations; i += 1) {
-            get_locations()[i] = new Location();
-        }
+    
+    public EnergySource get_energySource() {
+        return _energySource;
     }
 
-    public Location[] get_locations() {
-        return _locations;
+    public void set_energySource(EnergySource _energySource) {
+        this._energySource = _energySource;
     }
+
 
     public int get_id() {
         return _id;
@@ -49,50 +53,38 @@ public class ChargingStation {
     }
 
     public void useChargingLocation(Car car) {
-        for (int i = 0; i < get_locations().length; i += 1) {
-            if (!get_locations()[i].is_inUse()) {
-                get_locations()[i].set_inUse(true);
-                get_locations()[i].set_carInLocation(car);
-                car.set_charging(true);
-            }
-        }
-        if (!car.is_charging()) {
-            for (int i = 0; i < get_locations().length; i += 1) {
-                // TODO Logic for checking if there is an available Location
-            }
-        }
     }
 
     private void changeEnergySource() {
         switch (get_currentWeather()) {
             case SUNNY:
-                updateEnergySourceForLocation(EnergySource.SOLAR);
+                set_energySource(EnergySource.SOLAR);
                 break;
             case WINDY:
-                updateEnergySourceForLocation(EnergySource.WIND);
+            	set_energySource(EnergySource.WIND);
                 break;
             case RAINING:
-                updateEnergySourceForLocation(EnergySource.ELECTRICITY);
+            	set_energySource(EnergySource.ELECTRICITY);
                 break;
             case CLOUDY:
-                updateEnergySourceForLocation(EnergySource.WIND);
+            	set_energySource(EnergySource.WIND);
                 break;
             case SNOWING:
-                updateEnergySourceForLocation(EnergySource.GAS);
+            	set_energySource(EnergySource.GAS);
                 break;
             default:
-                updateEnergySourceForLocation(EnergySource.SOLAR);
+            	set_energySource(EnergySource.SOLAR);
         }
-    }
-
-    private void updateEnergySourceForLocation(EnergySource newSource) {
-        for (Location location : get_locations()) {
-            location.set_energySource(newSource);
-        }
-        logChanges("EnergySource changed to: " + newSource);
+        logEnergySourceChange();
     }
 
     private void logChanges(String text) {
         logger.info(text);
     }
+    
+
+    private void logEnergySourceChange() {
+        logger.info("EnergySource changed to: {}", _energySource);
+    }
+    
 }

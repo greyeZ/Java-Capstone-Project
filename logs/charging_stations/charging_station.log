@@ -40,3 +40,137 @@
 20:41:55.607 [main] INFO  ChargingStationLogger - Weather changed to: SNOWING
 20:41:55.607 [main] INFO  ChargingStationLogger - EnergySource changed to: ELECTRICITY
 20:41:55.607 [main] INFO  ChargingStationLogger - Weather changed to: RAINING
+18:13:34.111 [main] INFO  ChargingStationLogger - EnergySource changed to: SOLAR
+18:13:34.112 [main] INFO  ChargingStationLogger - Weather changed to: SUNNY
+18:13:34.112 [main] INFO  ChargingStationLogger - EnergySource changed to: SOLAR
+18:13:34.112 [main] INFO  ChargingStationLogger - Weather changed to: SUNNY
+18:13:34.112 [main] INFO  ChargingStationLogger - EnergySource changed to: WIND
+18:13:34.112 [main] INFO  ChargingStationLogger - Weather changed to: WINDY
+19:31:11.230 [Thread-1] INFO  ChargingStationLogger - Car ID#11 is charging!
+19:31:14.211 [Thread-1] INFO  ChargingStationLogger - Car ID#12 is charging!
+19:31:19.369 [Thread-1] INFO  ChargingStationLogger - Car ID#13 is charging!
+19:31:24.520 [Thread-1] INFO  ChargingStationLogger - Car ID#14 is charging!
+19:31:32.105 [Thread-1] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+19:36:42.376 [Thread-1] INFO  ChargingStationLogger - Car ID#11 is charging!
+19:36:44.463 [Thread-1] INFO  ChargingStationLogger - Car ID#12 is charging!
+19:36:49.457 [Thread-1] INFO  ChargingStationLogger - Car ID#13 is charging!
+19:36:54.217 [Thread-1] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+19:36:54.381 [Thread-1] INFO  ChargingStationLogger - Car ID#14 is charging!
+19:37:01.880 [Thread-1] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+19:41:14.218 [Thread-1] INFO  ChargingStationLogger - Car ID#15 is charging!
+19:46:24.521 [Thread-4] INFO  ChargingStationLogger - Car ID#11 is charging!
+19:46:31.777 [Thread-4] INFO  ChargingStationLogger - Car ID#12 is charging!
+19:46:35.797 [Thread-4] INFO  ChargingStationLogger - Car ID#13 is charging!
+19:46:40.408 [Thread-4] INFO  ChargingStationLogger - Car ID#14 is charging!
+19:46:43.364 [Thread-4] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+19:46:44.464 [Thread-1] INFO  ChargingStationLogger - Car ID#15 is charging!
+19:51:54.387 [Thread-4] INFO  ChargingStationLogger - Car ID#11 is charging!
+19:51:58.159 [Thread-4] INFO  ChargingStationLogger - Car ID#12 is charging!
+19:51:59.296 [Thread-4] INFO  ChargingStationLogger - Car ID#13 is charging!
+19:52:05.837 [Thread-4] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+19:52:06.389 [Thread-4] INFO  ChargingStationLogger - Car ID#14 is charging!
+19:52:11.318 [Thread-4] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+19:56:31.778 [Thread-4] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:01:40.409 [Thread-7] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:01:44.158 [Thread-7] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:01:52.004 [Thread-7] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:01:53.544 [Thread-7] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:01:58.166 [Thread-4] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:02:00.540 [Thread-7] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:02:34.304 [Thread-1] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:02:38.942 [Thread-1] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:02:45.168 [Thread-1] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:02:47.249 [Thread-1] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:02:49.714 [Thread-1] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:07:06.394 [Thread-7] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:07:12.850 [Thread-7] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:07:19.638 [Thread-7] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:07:20.788 [Thread-7] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:07:22.283 [Thread-7] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:11:44.165 [Thread-7] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:12:38.949 [Thread-1] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:16:53.571 [main] INFO  ChargingStationLogger - EnergySource changed to: GAS
+20:16:53.572 [main] INFO  ChargingStationLogger - Weather changed to: SNOWING
+20:16:53.572 [main] INFO  ChargingStationLogger - EnergySource changed to: GAS
+20:16:53.572 [main] INFO  ChargingStationLogger - Weather changed to: SNOWING
+20:16:53.572 [main] INFO  ChargingStationLogger - EnergySource changed to: WIND
+20:16:53.572 [main] INFO  ChargingStationLogger - Weather changed to: CLOUDY
+20:17:12.857 [Thread-7] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:17:47.256 [Thread-4] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:17:50.466 [Thread-4] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:17:56.984 [Thread-4] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:18:02.845 [Thread-4] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:18:08.133 [Thread-4] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:22:20.823 [main] INFO  ChargingStationLogger - EnergySource changed to: ELECTRICITY
+20:22:20.824 [main] INFO  ChargingStationLogger - Weather changed to: RAINING
+20:22:20.824 [main] INFO  ChargingStationLogger - EnergySource changed to: WIND
+20:22:20.824 [main] INFO  ChargingStationLogger - Weather changed to: CLOUDY
+20:22:20.824 [main] INFO  ChargingStationLogger - EnergySource changed to: SOLAR
+20:22:20.825 [main] INFO  ChargingStationLogger - Weather changed to: SUNNY
+20:23:20.109 [Thread-7] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:23:20.109 [Thread-13] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:23:20.109 [Thread-10] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:23:22.514 [Thread-10] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:23:24.521 [Thread-7] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:23:26.834 [Thread-13] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:23:29.244 [Thread-10] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:23:31.125 [Thread-7] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:23:33.413 [Thread-13] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:23:36.111 [Thread-10] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:23:37.307 [Thread-10] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:23:38.515 [Thread-7] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:23:40.293 [Thread-13] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:23:40.680 [Thread-7] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:23:45.788 [Thread-13] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:27:50.473 [Thread-4] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:27:51.811 [Thread-10] INFO  ChargingStationLogger - Car ID#21 is charging!
+20:27:51.811 [Thread-13] INFO  ChargingStationLogger - Car ID#31 is charging!
+20:27:51.811 [Thread-7] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:27:55.444 [Thread-10] INFO  ChargingStationLogger - Car ID#22 is charging!
+20:27:56.352 [Thread-7] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:27:58.123 [Thread-13] INFO  ChargingStationLogger - Car ID#32 is charging!
+20:27:59.709 [Thread-10] INFO  ChargingStationLogger - Car ID#23 is charging!
+20:28:01.875 [Thread-7] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:28:02.050 [Thread-13] INFO  ChargingStationLogger - Car ID#33 is charging!
+20:28:04.796 [Thread-13] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:28:06.433 [Thread-7] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:28:06.786 [Thread-10] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:28:13.093 [Thread-7] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:28:41.817 [Thread-10] INFO  ChargingStationLogger - Car ID#24 is charging!
+20:28:48.097 [Thread-10] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:31:11.813 [Thread-13] INFO  ChargingStationLogger - Car ID#34 is charging!
+20:31:17.461 [Thread-13] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:32:58.128 [Thread-13] INFO  ChargingStationLogger - Car ID#35 is charging!
+20:33:02.850 [Thread-7] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:33:08.324 [Thread-7] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:33:11.555 [Thread-7] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:33:15.736 [Thread-7] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:33:18.550 [Thread-7] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:33:22.521 [Thread-10] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:33:24.525 [Thread-7] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:33:26.841 [Thread-13] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:33:48.663 [Thread-7] INFO  ChargingStationLogger - Car ID#11 is charging!
+20:33:48.663 [Thread-10] INFO  ChargingStationLogger - Car ID#21 is charging!
+20:33:48.663 [Thread-13] INFO  ChargingStationLogger - Car ID#31 is charging!
+20:33:55.819 [Thread-13] INFO  ChargingStationLogger - Car ID#32 is charging!
+20:33:55.875 [Thread-10] INFO  ChargingStationLogger - Car ID#22 is charging!
+20:33:55.974 [Thread-7] INFO  ChargingStationLogger - Car ID#12 is charging!
+20:33:59.168 [Thread-10] INFO  ChargingStationLogger - Car ID#23 is charging!
+20:34:01.298 [Thread-10] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:34:02.065 [Thread-13] INFO  ChargingStationLogger - Car ID#33 is charging!
+20:34:03.103 [Thread-7] INFO  ChargingStationLogger - Car ID#13 is charging!
+20:34:05.957 [Thread-13] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:34:10.607 [Thread-7] INFO  ChargingStationLogger - Car ID#14 is charging!
+20:34:16.750 [Thread-7] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:34:38.669 [Thread-10] INFO  ChargingStationLogger - Car ID#24 is charging!
+20:34:45.218 [Thread-10] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:37:08.669 [Thread-13] INFO  ChargingStationLogger - Car ID#34 is charging!
+20:37:12.687 [Thread-13] INFO  ChargingStationLogger - No charging spot is available now, waiting....
+20:37:56.354 [Thread-7] INFO  ChargingStationLogger - Car ID#15 is charging!
+20:38:40.318 [main] INFO  ChargingStationLogger - EnergySource changed to: ELECTRICITY
+20:38:40.319 [main] INFO  ChargingStationLogger - Weather changed to: RAINING
+20:38:40.319 [main] INFO  ChargingStationLogger - EnergySource changed to: ELECTRICITY
+20:38:40.319 [main] INFO  ChargingStationLogger - Weather changed to: RAINING
+20:38:40.319 [main] INFO  ChargingStationLogger - EnergySource changed to: WIND
+20:38:40.319 [main] INFO  ChargingStationLogger - Weather changed to: CLOUDY
+20:38:55.825 [Thread-13] INFO  ChargingStationLogger - Car ID#35 is charging!
