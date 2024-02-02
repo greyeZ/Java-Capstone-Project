@@ -1,77 +1,273 @@
-20:30:28.658 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:30:28.659 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: CLOUDY
-20:30:28.659 [main] INFO  SystemLogger - Weather changed to: WINDY
-20:30:28.660 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: WINDY
-20:30:28.660 [main] INFO  SystemLogger - Weather changed to: SNOWING
-20:30:28.660 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: SNOWING
-20:31:47.279 [main] INFO  SystemLogger - Weather changed to: RAINING
-20:31:47.281 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: RAINING
-20:31:47.281 [main] INFO  SystemLogger - Weather changed to: RAINING
-20:31:47.281 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: RAINING
-20:31:47.281 [main] INFO  SystemLogger - Weather changed to: RAINING
-20:31:47.281 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: RAINING
-20:34:03.098 [main] INFO  SystemLogger - Weather changed to: SUNNY
-20:34:03.099 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: SUNNY
-20:34:03.099 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:34:03.100 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: CLOUDY
-20:34:03.100 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:34:03.100 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: CLOUDY
-20:37:32.321 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:37:32.330 [main] INFO  SystemLogger - Weather changed to: WINDY
-20:37:32.332 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: WINDY
-20:37:32.332 [main] INFO  SystemLogger - Weather changed to: WINDY
-20:37:32.332 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: WINDY
-20:37:32.332 [main] INFO  SystemLogger - Weather changed to: SUNNY
-20:37:32.332 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: SUNNY
-20:40:33.850 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:40:33.859 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:40:33.860 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: CLOUDY
-20:40:33.860 [main] INFO  SystemLogger - Weather changed to: SNOWING
-20:40:33.860 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: SNOWING
-20:40:33.860 [main] INFO  SystemLogger - Weather changed to: SUNNY
-20:40:33.860 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: SUNNY
-20:41:03.253 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:41:03.261 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:41:03.262 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: CLOUDY
-20:41:03.263 [main] INFO  SystemLogger - Weather changed to: SNOWING
-20:41:03.263 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: SNOWING
-20:41:03.263 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:41:03.263 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: CLOUDY
-20:41:55.596 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:41:55.605 [main] INFO  SystemLogger - Weather changed to: SNOWING
-20:41:55.606 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: SNOWING
-20:41:55.606 [main] INFO  SystemLogger - Weather changed to: SNOWING
-20:41:55.607 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: SNOWING
-20:41:55.607 [main] INFO  SystemLogger - Weather changed to: RAINING
-20:41:55.607 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: RAINING
-18:13:34.101 [main] INFO  SystemLogger - JavaCapstoneProject started
-18:13:34.111 [main] INFO  SystemLogger - Weather changed to: SUNNY
-18:13:34.112 [main] INFO  SystemLogger - Charging Station 1111 - Current Weather: SUNNY
-18:13:34.112 [main] INFO  SystemLogger - Weather changed to: SUNNY
-18:13:34.112 [main] INFO  SystemLogger - Charging Station 2222 - Current Weather: SUNNY
-18:13:34.112 [main] INFO  SystemLogger - Weather changed to: WINDY
-18:13:34.112 [main] INFO  SystemLogger - Charging Station 3333 - Current Weather: WINDY
-19:31:11.228 [main] INFO  SystemLogger - JavaCapstoneProject started
-19:36:42.374 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:02:34.301 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:16:53.570 [main] INFO  SystemLogger - Weather changed to: SNOWING
-20:16:53.572 [main] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
-20:16:53.572 [main] INFO  SystemLogger - Weather changed to: SNOWING
-20:16:53.572 [main] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
-20:16:53.572 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:16:53.572 [main] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
-20:22:20.822 [main] INFO  SystemLogger - Weather changed to: RAINING
-20:22:20.824 [main] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
-20:22:20.824 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:22:20.824 [main] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
-20:22:20.824 [main] INFO  SystemLogger - Weather changed to: SUNNY
-20:22:20.825 [main] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY
-20:23:20.106 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:27:51.808 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:33:48.659 [main] INFO  SystemLogger - JavaCapstoneProject started
-20:38:40.317 [main] INFO  SystemLogger - Weather changed to: RAINING
-20:38:40.319 [main] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
-20:38:40.319 [main] INFO  SystemLogger - Weather changed to: RAINING
-20:38:40.319 [main] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
-20:38:40.319 [main] INFO  SystemLogger - Weather changed to: CLOUDY
-20:38:40.319 [main] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+01:23:37.438 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+01:23:37.449 [main] INFO  SystemLogger - Charging Station 1 - Current Weather: CLOUDY
+01:23:37.449 [main] INFO  SystemLogger - Weather changed to: CLOUDY
+01:23:37.450 [main] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+01:23:37.450 [main] INFO  SystemLogger - Weather changed to: RAINING
+01:23:37.450 [main] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:45:47.062 [main] INFO  SystemLogger - JavaCapstoneProject started
+14:45:52.881 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:45:52.883 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:45:55.508 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:45:55.510 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:46:00.869 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:46:00.870 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:46:02.377 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+14:46:02.380 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY
+14:46:08.988 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:46:08.990 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:46:12.681 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:46:12.681 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:46:20.567 [Thread-15] INFO  SystemLogger - Weather changed to: SNOWING
+14:46:20.569 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SNOWING
+14:46:23.177 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:46:23.178 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:46:23.757 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:46:23.759 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:46:26.183 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:46:26.183 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:46:30.685 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:46:30.686 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:46:34.326 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:46:34.327 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:46:37.173 [Thread-15] INFO  SystemLogger - Weather changed to: SNOWING
+14:46:37.174 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SNOWING
+14:46:41.568 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:46:41.570 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:46:46.482 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:46:46.483 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:46:49.077 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:46:49.078 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:46:52.758 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:46:52.759 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:46:54.106 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:46:54.107 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:46:59.641 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+14:46:59.642 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY
+14:46:59.928 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:46:59.929 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:47:00.868 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:47:00.868 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:47:05.547 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:47:05.548 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:47:07.282 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:47:07.283 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:47:12.746 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:47:12.747 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:47:13.040 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:47:13.041 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:47:19.314 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+14:47:19.315 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: WINDY
+14:47:20.607 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+14:47:20.608 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: WINDY
+14:47:27.391 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:47:27.393 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:47:33.589 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:47:33.590 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:47:36.056 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:47:36.057 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:47:38.114 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:47:38.115 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:47:41.702 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:47:41.703 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:47:51.295 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:47:51.296 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:47:53.671 [Thread-15] INFO  SystemLogger - Weather changed to: SNOWING
+14:47:53.672 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SNOWING
+14:47:56.759 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:47:56.760 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:47:58.678 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:47:58.678 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:48:01.345 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:48:01.346 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:48:13.414 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:48:13.415 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:48:15.539 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:48:15.540 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:48:20.211 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:48:20.212 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:48:26.106 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+14:48:26.107 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY
+14:48:30.329 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:48:30.330 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:48:31.273 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:48:31.274 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:48:34.241 [main] INFO  SystemLogger - JavaCapstoneProject started
+14:48:39.783 [Thread-7] INFO  SystemLogger - Weather changed to: CLOUDY
+14:48:39.786 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: CLOUDY
+14:48:41.891 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:48:41.892 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:48:42.758 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+14:48:42.759 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: WINDY
+14:48:45.169 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:48:45.170 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:48:47.715 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:48:47.717 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:48:52.510 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:48:52.511 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:48:52.618 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+14:48:52.620 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: WINDY
+14:48:53.400 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:48:53.401 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:48:55.335 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+14:48:55.336 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: WINDY
+14:48:55.559 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:48:55.560 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:48:57.891 [Thread-15] INFO  SystemLogger - Weather changed to: SNOWING
+14:48:57.892 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SNOWING
+14:48:58.756 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:48:58.757 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:49:02.403 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:49:02.404 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:49:03.445 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:49:03.447 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:49:06.244 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:49:06.244 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:49:09.337 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:09.338 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:49:09.438 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:49:09.439 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:49:13.865 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:49:13.866 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:49:15.223 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:49:15.224 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:49:17.661 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:49:17.663 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:49:18.308 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:49:18.309 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:49:18.600 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:49:18.600 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:49:26.134 [Thread-7] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:26.135 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: CLOUDY
+14:49:28.323 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:28.324 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:49:28.911 [Thread-7] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:28.912 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: CLOUDY
+14:49:29.908 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:29.909 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:49:30.820 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:49:30.821 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:49:35.073 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+14:49:35.073 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: WINDY
+14:49:37.108 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:49:37.110 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:49:37.334 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:49:37.335 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:49:40.753 [Thread-15] INFO  SystemLogger - Weather changed to: SNOWING
+14:49:40.754 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SNOWING
+14:49:41.157 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:41.157 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:49:43.445 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:49:43.446 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:49:46.990 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+14:49:46.991 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY
+14:49:51.245 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:51.246 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:49:52.119 [Thread-7] INFO  SystemLogger - Weather changed to: CLOUDY
+14:49:52.121 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: CLOUDY
+14:49:53.082 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:49:53.083 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:49:54.535 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:49:54.536 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:49:55.927 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:49:55.927 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:49:57.132 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:49:57.133 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:50:04.264 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+14:50:04.265 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: WINDY
+14:50:05.245 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:05.245 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY
+14:50:06.404 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:06.405 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:50:07.526 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:50:07.527 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:50:09.152 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:50:09.153 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:50:10.777 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:10.778 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:50:16.599 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:16.601 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:50:17.708 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:17.709 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:50:21.193 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+14:50:21.195 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: WINDY
+14:50:22.612 [Thread-7] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:22.612 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: CLOUDY
+14:50:22.846 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:22.848 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:50:23.219 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:50:23.221 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:50:24.584 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:24.584 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:50:25.298 [Thread-15] INFO  SystemLogger - Weather changed to: SNOWING
+14:50:25.299 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SNOWING
+14:50:28.384 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+14:50:28.385 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+14:50:30.538 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:30.540 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:50:31.572 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+14:50:31.572 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: WINDY
+14:50:31.956 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:50:31.957 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:50:32.436 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:50:32.436 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:50:34.094 [main] INFO  SystemLogger - JavaCapstoneProject started
+14:50:35.766 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:35.768 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:50:37.029 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:37.030 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:50:38.603 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:50:38.606 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:50:40.176 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:50:40.176 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:50:41.991 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:41.994 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SUNNY
+14:50:44.852 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:44.853 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:50:45.398 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:45.399 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:50:46.406 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:50:46.407 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:50:48.006 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+14:50:48.007 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: WINDY
+14:50:48.203 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+14:50:48.204 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: WINDY
+14:50:49.096 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:49.097 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:50:51.145 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:50:51.146 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:50:54.405 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:50:54.407 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:50:57.115 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:50:57.116 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:50:57.397 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:50:57.399 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:51:01.312 [Thread-11] INFO  SystemLogger - Weather changed to: RAINING
+14:51:01.313 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: RAINING
+14:51:01.688 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:51:01.688 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:51:01.974 [Thread-7] INFO  SystemLogger - Weather changed to: CLOUDY
+14:51:01.975 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: CLOUDY
+14:51:04.952 [Thread-15] INFO  SystemLogger - Weather changed to: SNOWING
+14:51:04.952 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SNOWING
+14:51:05.054 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+14:51:05.055 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: CLOUDY
+14:51:06.194 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:51:06.195 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:51:06.363 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+14:51:06.363 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: WINDY
+14:51:12.530 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+14:51:12.531 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SUNNY
+14:51:13.896 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+14:51:13.896 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: CLOUDY
+14:51:17.435 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:51:17.436 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:51:20.646 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+14:51:20.647 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: RAINING
+14:51:21.431 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+14:51:21.432 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: RAINING
+14:51:31.890 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+14:51:31.891 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: WINDY
+14:51:34.388 [Thread-7] INFO  SystemLogger - Weather changed to: SNOWING
+14:51:34.389 [Thread-7] INFO  SystemLogger - Charging Station 1 - Current Weather: SNOWING
+14:51:35.328 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+14:51:35.329 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY

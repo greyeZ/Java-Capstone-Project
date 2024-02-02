@@ -84,6 +84,7 @@ public class ChargingStation extends Thread {
     
 
     private void logEnergySourceChange() {
+    	System.out.println("Charging Station " + get_id() + " now uses " + get_energySource() + " as energy source");
         logger.info("EnergySource changed to: {}", _energySource);
     }
     

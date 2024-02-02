@@ -62,6 +62,7 @@ public class JavaCapstoneProject {
         // Create an array to store threads for each charging station
         Thread[] carEnteringThreads = new Thread[chargingStations.length];
         Thread[] carsLeavingThreads = new Thread[chargingStations.length];
+        Thread[] weatherChangeThreads = new Thread[chargingStations.length];
 
         // Create and start threads for every Charging Station
         for (int i = 0; i < chargingStations.length; i++) {
@@ -71,6 +72,26 @@ public class JavaCapstoneProject {
             Random random = new Random();
 
             final int stationIndex = i;  // Create a separate variable for each thread
+
+            // Create and start thread for weather changes
+            weatherChangeThreads[i] = new Thread(() -> {
+                while (true) {
+                    try {
+                        // Sleep for a random time before changing weather
+                        long randomInterval = random.nextInt(15000) + 5000;
+                        Thread.sleep(randomInterval);
+
+                        WeatherCondition newWeather = changeWeather();
+                        System.out.println("The weather changed for Station " + chargingStations[stationIndex].get_id() + " to " + newWeather);
+                        chargingStations[stationIndex].set_currentWeather(newWeather);
+                        logger.info("Charging Station {} - Current Weather: {}", chargingStations[stationIndex].get_id(), newWeather);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+
+            weatherChangeThreads[i].start();
 
             carEnteringThreads[i] = new Thread(() -> {
                 // Iterate over the cars for every car to charge
@@ -124,10 +145,9 @@ public class JavaCapstoneProject {
             e.printStackTrace();
         }
 
-        for (ChargingStation chargingStation : chargingStations) {
-            WeatherCondition newWeather = changeWeather();
-            chargingStation.set_currentWeather(newWeather);
-            logger.info("Charging Station {} - Current Weather: {}", chargingStation.get_id(), newWeather);
+        // Stop weather change threads when exiting the main loop
+        for (Thread weatherChangeThread : weatherChangeThreads) {
+            weatherChangeThread.interrupt();
         }
 
         // Interactive console for user input
@@ -190,6 +210,7 @@ public class JavaCapstoneProject {
                 newWeather = WeatherCondition.SUNNY;
                 break;
         }
+       
 
         // Log the weather change
         logger.info("Weather changed to: {}", newWeather);
