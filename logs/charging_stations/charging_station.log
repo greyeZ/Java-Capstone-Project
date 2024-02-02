@@ -516,3 +516,5 @@
 17:46:42.892 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 now uses ELECTRICITY as energy source
 17:46:42.892 [Thread-15] INFO  ChargingStationLogger - Weather changed to: RAINING
 17:46:42.892 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 - Current Weather: RAINING
+17:53:22.553 [main] INFO  ChargingStationLogger - Charging Station 1111 now uses WIND as energy source
+17:53:22.553 [main] INFO  ChargingStationLogger - Weather changed to: CLOUDY
