@@ -33,8 +33,8 @@ public class ChargingQueue {
 
             while (carsQueue.size() >= maxSize) {
                 try {
-                	logger.info("No charging spot is available now, waiting....");
-                    System.out.println("No charging spot is available now, waiting....");
+                	logger.info("No charging spot is available for" + car.get_id() + ", now waiting....");
+            
                     lock.wait();
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
@@ -46,7 +46,6 @@ public class ChargingQueue {
             var response = carsQueue.add(chargingQueueCar);
             if (response) {
             	logger.info("Car ID#" + chargingQueueCar.getCar().get_id() + " is charging!");
-                System.out.println("Car ID#" + chargingQueueCar.getCar().get_id() + " is charging!");
             }
 
             // remove the car after 15 mins

@@ -457,3 +457,62 @@
 15:17:14.642 [Thread-15] INFO  ChargingStationLogger - Weather changed to: SUNNY
 15:17:15.781 [Thread-11] INFO  ChargingStationLogger - EnergySource changed to: GAS
 15:17:15.781 [Thread-11] INFO  ChargingStationLogger - Weather changed to: SNOWING
+17:45:38.494 [Thread-16] INFO  ChargingStationLogger - Car ID#31 is charging!
+17:45:38.494 [Thread-12] INFO  ChargingStationLogger - Car ID#21 is charging!
+17:45:38.494 [Thread-8] INFO  ChargingStationLogger - Car ID#11 is charging!
+17:45:40.516 [Thread-16] INFO  ChargingStationLogger - Car ID#32 is charging!
+17:45:43.422 [Thread-8] INFO  ChargingStationLogger - Car ID#12 is charging!
+17:45:45.671 [Thread-8] INFO  ChargingStationLogger - Car ID#13 is charging!
+17:45:45.801 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 now uses GAS as energy source
+17:45:45.801 [Thread-11] INFO  ChargingStationLogger - Weather changed to: SNOWING
+17:45:45.801 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 - Current Weather: SNOWING
+17:45:46.060 [Thread-12] INFO  ChargingStationLogger - Car ID#22 is charging!
+17:45:48.412 [Thread-16] INFO  ChargingStationLogger - Car ID#33 is charging!
+17:45:48.540 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 now uses ELECTRICITY as energy source
+17:45:48.541 [Thread-7] INFO  ChargingStationLogger - Weather changed to: RAINING
+17:45:48.541 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 - Current Weather: RAINING
+17:45:50.500 [Thread-9] INFO  ChargingStationLogger - Car ID#11 is leaving now...
+17:45:52.322 [Thread-12] INFO  ChargingStationLogger - Car ID#23 is charging!
+17:45:52.472 [Thread-8] INFO  ChargingStationLogger - Car ID#14 is charging!
+17:45:52.936 [Thread-16] INFO  ChargingStationLogger - No charging spot is available for34, now waiting....
+17:45:55.877 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 now uses WIND as energy source
+17:45:55.878 [Thread-15] INFO  ChargingStationLogger - Weather changed to: WINDY
+17:45:55.878 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 - Current Weather: WINDY
+17:45:57.636 [Thread-12] INFO  ChargingStationLogger - No charging spot is available for24, now waiting....
+17:46:00.203 [Thread-8] INFO  ChargingStationLogger - No charging spot is available for15, now waiting....
+17:46:01.110 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 now uses WIND as energy source
+17:46:01.110 [Thread-7] INFO  ChargingStationLogger - Weather changed to: CLOUDY
+17:46:01.111 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 - Current Weather: CLOUDY
+17:46:03.244 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 now uses SOLAR as energy source
+17:46:03.245 [Thread-11] INFO  ChargingStationLogger - Weather changed to: SUNNY
+17:46:03.245 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 - Current Weather: SUNNY
+17:46:04.334 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 now uses WIND as energy source
+17:46:04.335 [Thread-15] INFO  ChargingStationLogger - Weather changed to: CLOUDY
+17:46:04.335 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 - Current Weather: CLOUDY
+17:46:17.585 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 now uses SOLAR as energy source
+17:46:17.585 [Thread-7] INFO  ChargingStationLogger - Weather changed to: SUNNY
+17:46:17.585 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 - Current Weather: SUNNY
+17:46:18.881 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 now uses WIND as energy source
+17:46:18.881 [Thread-15] INFO  ChargingStationLogger - Weather changed to: WINDY
+17:46:18.882 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 - Current Weather: WINDY
+17:46:19.714 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 now uses WIND as energy source
+17:46:19.714 [Thread-11] INFO  ChargingStationLogger - Weather changed to: WINDY
+17:46:19.715 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 - Current Weather: WINDY
+17:46:28.496 [Thread-12] INFO  ChargingStationLogger - Car ID#24 is charging!
+17:46:28.496 [Thread-13] INFO  ChargingStationLogger - Car ID#21 is leaving now...
+17:46:30.697 [Thread-12] INFO  ChargingStationLogger - No charging spot is available for25, now waiting....
+17:46:33.330 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 now uses SOLAR as energy source
+17:46:33.330 [Thread-7] INFO  ChargingStationLogger - Weather changed to: SUNNY
+17:46:33.330 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 - Current Weather: SUNNY
+17:46:33.466 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 now uses SOLAR as energy source
+17:46:33.467 [Thread-15] INFO  ChargingStationLogger - Weather changed to: SUNNY
+17:46:33.467 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 - Current Weather: SUNNY
+17:46:39.093 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 now uses WIND as energy source
+17:46:39.094 [Thread-11] INFO  ChargingStationLogger - Weather changed to: CLOUDY
+17:46:39.094 [Thread-11] INFO  ChargingStationLogger - Charging Station 2 - Current Weather: CLOUDY
+17:46:41.508 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 now uses WIND as energy source
+17:46:41.508 [Thread-7] INFO  ChargingStationLogger - Weather changed to: WINDY
+17:46:41.508 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 - Current Weather: WINDY
+17:46:42.892 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 now uses ELECTRICITY as energy source
+17:46:42.892 [Thread-15] INFO  ChargingStationLogger - Weather changed to: RAINING
+17:46:42.892 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 - Current Weather: RAINING

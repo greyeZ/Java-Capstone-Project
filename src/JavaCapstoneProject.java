@@ -12,12 +12,13 @@ import Weather.WeatherCondition;
 import LogFileManager.LogFileHandler;
 
 public class JavaCapstoneProject {
-    private static final Logger logger = LogManager.getLogger("SystemLogger");
+    private static final Logger systemlogger = LogManager.getLogger("SystemLogger");
+    private static final Logger stationlogger = LogManager.getLogger("ChargingStationLogger");
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        logger.info("JavaCapstoneProject started");
+        systemlogger.info("JavaCapstoneProject started");
 
         ChargingStation[] chargingStations = {
                 new ChargingStation(01),
@@ -54,7 +55,7 @@ public class JavaCapstoneProject {
         Thread[] weatherChangeThreads = new Thread[chargingStations.length];
 
         for (int i = 0; i < chargingStations.length; i++) {
-            System.out.println("Starting Threads for Charging Station " + chargingStations[i].get_id());
+        	systemlogger.info("Starting Threads for Charging Station " + chargingStations[i].get_id());
             final int chargingQueueSize = 3;
             ChargingQueue chargingQueue = new ChargingQueue(chargingQueueSize);
             Random random = new Random();
@@ -69,7 +70,8 @@ public class JavaCapstoneProject {
 
                         WeatherCondition newWeather = changeWeather();
                         chargingStations[stationIndex].set_currentWeather(newWeather);
-                        logger.info("Charging Station {} - Current Weather: {}", chargingStations[stationIndex].get_id(), newWeather);
+                       
+                        stationlogger.info("Charging Station {} - Current Weather: {}", chargingStations[stationIndex].get_id(), newWeather);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -97,7 +99,7 @@ public class JavaCapstoneProject {
                     while (!chargingQueue.isEmpty()) {
                         var outCar = chargingQueue.leave();
                         if (outCar != null) {
-                            System.out.println("Car ID#" + outCar.get_id() + " is leaving now...");
+                        	stationlogger.info("Car ID#" + outCar.get_id() + " is leaving now...");
                         }
                     }
                 } catch (InterruptedException e) {
@@ -132,7 +134,7 @@ public class JavaCapstoneProject {
             weatherChangeThread.interrupt();
         }
 
-        logger.info("JavaCapstoneProject ended");
+        systemlogger.info("JavaCapstoneProject ended");
     }
 
     static WeatherCondition changeWeather() {
@@ -160,7 +162,7 @@ public class JavaCapstoneProject {
                 break;
         }
 
-        logger.info("Weather changed to: {}", newWeather);
+        systemlogger.info("Weather changed to: {}", newWeather);
 
         return newWeather;
     }

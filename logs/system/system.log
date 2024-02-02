@@ -399,3 +399,28 @@
 15:17:14.642 [Thread-15] INFO  SystemLogger - Charging Station 3 - Current Weather: SUNNY
 15:17:15.780 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
 15:17:15.781 [Thread-11] INFO  SystemLogger - Charging Station 2 - Current Weather: SNOWING
+17:45:38.490 [main] INFO  SystemLogger - JavaCapstoneProject started
+17:45:38.493 [main] INFO  SystemLogger - Starting Threads for Charging Station 1
+17:45:38.494 [main] INFO  SystemLogger - Starting Threads for Charging Station 2
+17:45:38.494 [main] INFO  SystemLogger - Starting Threads for Charging Station 3
+17:45:38.495 [Thread-18] INFO  SystemLogger - LogFileHandler started
+17:45:45.798 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+17:45:48.539 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING
+17:45:55.876 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+17:46:01.109 [Thread-7] INFO  SystemLogger - Weather changed to: CLOUDY
+17:46:03.244 [Thread-11] INFO  SystemLogger - Weather changed to: SUNNY
+17:46:04.334 [Thread-15] INFO  SystemLogger - Weather changed to: CLOUDY
+17:46:17.584 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+17:46:18.880 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+17:46:19.713 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+17:46:33.330 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+17:46:33.466 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+17:46:39.093 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+17:46:41.507 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+17:46:42.891 [Thread-15] INFO  SystemLogger - Weather changed to: RAINING
+17:46:45.181 [Thread-18] ERROR SystemLogger - Error handling command: openLogFile
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651) ~[?:?]
+	at LogFileManager.LogFileHandler.handleCommand(LogFileHandler.java:39) ~[bin/:?]
+	at LogFileManager.LogFileHandler.startLogFileHandler(LogFileHandler.java:27) ~[bin/:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
