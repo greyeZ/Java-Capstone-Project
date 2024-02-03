@@ -1,5 +1,7 @@
 package Services.LogFileManager;
 
+import Enum.UserType;
+
 public class NormalUser extends User {
     public NormalUser() {
         super(UserType.NORMAL);

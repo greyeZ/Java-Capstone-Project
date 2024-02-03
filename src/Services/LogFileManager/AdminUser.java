@@ -2,6 +2,8 @@ package Services.LogFileManager;
 
 import java.util.Objects;
 
+import Enum.UserType;
+
 public class AdminUser extends User {
     private static final String ADMIN_PASSWORD = "1234";
 

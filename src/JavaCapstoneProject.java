@@ -16,8 +16,6 @@ public class JavaCapstoneProject {
     private static final Logger stationlogger = LogManager.getLogger("ChargingStationLogger");
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         systemlogger.info("JavaCapstoneProject started");
 
         ChargingStation[] chargingStations = {
