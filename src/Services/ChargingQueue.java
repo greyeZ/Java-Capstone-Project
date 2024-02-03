@@ -5,11 +5,10 @@ import java.util.Queue;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import Car.Car;
-
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import Models.Car;
 
 public class ChargingQueue {
 

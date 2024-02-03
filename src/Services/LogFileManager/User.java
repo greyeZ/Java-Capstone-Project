@@ -1,4 +1,4 @@
-package LogFileManager;
+package Services.LogFileManager;
 
 public abstract class User {
     private final UserType userType;

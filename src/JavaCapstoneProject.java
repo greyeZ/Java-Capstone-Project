@@ -1,15 +1,15 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import Enum.WeatherCondition;
 import Services.ChargingQueue;
+import Services.LogFileManager.LogFileHandler;
 
 import java.util.Random;
 import java.util.Scanner;
 
-import Car.Car;
-import ChargingStation.ChargingStation;
-import Weather.WeatherCondition;
-import LogFileManager.LogFileHandler;
+import Models.Car;
+import Models.ChargingStation;
 
 public class JavaCapstoneProject {
     private static final Logger systemlogger = LogManager.getLogger("SystemLogger");

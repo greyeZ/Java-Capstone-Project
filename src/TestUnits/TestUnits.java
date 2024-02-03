@@ -4,10 +4,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import Car.Car;
-import ChargingStation.ChargingStation;
-import ChargingStation.EnergySource;
-import Weather.WeatherCondition;
+import Enum.WeatherCondition;
+import Models.Car;
+import Models.ChargingStation;
+import Models.EnergySource;
 
 public class TestUnits {
     

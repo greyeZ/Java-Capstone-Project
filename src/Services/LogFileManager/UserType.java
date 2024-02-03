@@ -1,4 +1,4 @@
-package LogFileManager;
+package Services.LogFileManager;
 
 public enum UserType {
     ADMIN,

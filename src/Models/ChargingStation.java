@@ -1,13 +1,12 @@
-package ChargingStation;
+package Models;
 
 import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import Car.Car;
+import Enum.WeatherCondition;
 import Services.ChargingQueue;
-import Weather.WeatherCondition;
 
 public class ChargingStation extends Thread {
 	private static final Logger logger = LogManager.getLogger("ChargingStationLogger");

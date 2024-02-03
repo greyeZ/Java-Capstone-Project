@@ -1,4 +1,4 @@
-package LogFileManager;
+package Services.LogFileManager;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
