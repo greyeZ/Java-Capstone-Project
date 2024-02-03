@@ -54,12 +54,10 @@ public class LogFileHandler {
             }
 
             try {
-                System.out.println("Enter the name of the equipment or date:");
-                String userInput = logFileManager.getScanner().nextLine();
-                System.out.println("Enter the type of equipment ('charging_station', 'energy_source', 'system'):");
-                String equipmentType = logFileManager.getScanner().nextLine();
+                System.out.println("Choose either ('charging_stations', 'energy_sources', 'system'):");
+                String folder = logFileManager.getScanner().nextLine();
 
-                logFileManager.logFileExistsAndOpen(userInput, equipmentType);
+                logFileManager.logFileExistsAndOpen(folder);
             } catch (Exception e) {
                 logger.error("Error handling command: " + command, e);
             }

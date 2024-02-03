@@ -1,0 +1,12 @@
+00:05:37.653 [Thread-8] INFO  ChargingStationLogger - Car ID#11 is charging!
+00:05:37.657 [Thread-16] INFO  ChargingStationLogger - Car ID#31 is charging!
+00:05:37.658 [Thread-12] INFO  ChargingStationLogger - Car ID#21 is charging!
+00:05:43.629 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 now uses WIND as energy source
+00:05:43.629 [Thread-15] INFO  ChargingStationLogger - Weather changed to: WINDY
+00:05:43.629 [Thread-15] INFO  ChargingStationLogger - Charging Station 3 - Current Weather: WINDY
+00:05:44.220 [Thread-12] INFO  ChargingStationLogger - Car ID#22 is charging!
+00:05:44.869 [Thread-8] INFO  ChargingStationLogger - Car ID#12 is charging!
+00:05:45.092 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 now uses ELECTRICITY as energy source
+00:05:45.092 [Thread-7] INFO  ChargingStationLogger - Weather changed to: RAINING
+00:05:45.093 [Thread-7] INFO  ChargingStationLogger - Charging Station 1 - Current Weather: RAINING
+00:05:45.184 [Thread-16] INFO  ChargingStationLogger - Car ID#32 is charging!

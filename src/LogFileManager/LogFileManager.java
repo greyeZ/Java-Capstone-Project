@@ -16,10 +16,9 @@ public class LogFileManager {
         return scanner;
     }
 
-    public String findLogFile(String userInput, String equipmentType) {
+    public String findLogFile(String folder) {
         // Adjust the path to the 'logs' folder next to the source folder
-        String logFileName = userInput + ".log";
-        String logFilePath = "./logs/" + equipmentType + "/" + logFileName;
+        String logFilePath = "./logs/" + folder + "/" + "logs.log";
 
         System.out.println("Debug: Searching for log file at path: " + logFilePath);
 
@@ -41,8 +40,8 @@ public class LogFileManager {
         }
     }
 
-    public void logFileExistsAndOpen(String userInput, String equipmentType) {
-            String logFilePath = findLogFile(userInput, equipmentType);
+    public void logFileExistsAndOpen(String folder) {
+            String logFilePath = findLogFile(folder);
             if (logFilePath != null) {
                 try {
                     openLogFile(logFilePath);
