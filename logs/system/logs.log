@@ -1,0 +1,14 @@
+00:08:31.342 [main] INFO  SystemLogger - JavaCapstoneProject started
+00:08:31.352 [main] INFO  SystemLogger - Starting Threads for Charging Station 1
+00:08:31.359 [main] INFO  SystemLogger - Starting Threads for Charging Station 2
+00:08:31.360 [main] INFO  SystemLogger - Starting Threads for Charging Station 3
+00:08:31.371 [Thread-18] INFO  SystemLogger - LogFileHandler started
+00:08:38.915 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+00:08:44.426 [Thread-7] INFO  SystemLogger - Weather changed to: SUNNY
+00:08:45.326 [Thread-11] INFO  SystemLogger - Weather changed to: CLOUDY
+00:08:47.313 [Thread-15] INFO  SystemLogger - Weather changed to: WINDY
+00:08:50.400 [Thread-7] INFO  SystemLogger - Weather changed to: WINDY
+00:08:55.304 [Thread-11] INFO  SystemLogger - Weather changed to: WINDY
+00:09:04.735 [Thread-15] INFO  SystemLogger - Weather changed to: SUNNY
+00:09:05.167 [Thread-11] INFO  SystemLogger - Weather changed to: SNOWING
+00:09:07.953 [Thread-7] INFO  SystemLogger - Weather changed to: RAINING

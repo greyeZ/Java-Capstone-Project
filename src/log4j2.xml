@@ -2,7 +2,7 @@
 <Configuration status="warn" name="MyApp" packages="">
     <Appenders>
         <!-- Charging Station Log -->
-        <RollingFile name="ChargingStationFile" fileName="logs/charging_stations/charging_station.log"
+        <RollingFile name="ChargingStationFile" fileName="logs/charging_stations/logs.log"
                      filePattern="logs/charging_stations/%d{yyyy-MM-dd}/charging_station-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout>
                 <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
@@ -15,7 +15,7 @@
         </RollingFile>
 
         <!-- Energy Source Log -->
-        <RollingFile name="EnergySourceFile" fileName="logs/energy_sources/energy_source.log"
+        <RollingFile name="EnergySourceFile" fileName="logs/energy_sources/logs.log"
                      filePattern="logs/energy_sources/%d{yyyy-MM-dd}/energy_source-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout>
                 <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
@@ -28,7 +28,7 @@
         </RollingFile>
 
         <!-- System Log -->
-        <RollingFile name="SystemLogFile" fileName="logs/system/system.log"
+        <RollingFile name="SystemLogFile" fileName="logs/system/logs.log"
                      filePattern="logs/system/%d{yyyy-MM-dd}/system-%d{MM-dd-yyyy}-%i.log.gz">
             <PatternLayout>
                 <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
